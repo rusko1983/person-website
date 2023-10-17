@@ -64,9 +64,20 @@ main {
 }
 .hobys-list li {
   display: inline;
-  border: 1px solid black;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.
+.grid-item-2 {
+  padding-bottom: 60px;
+}
+.grid-item-5 {
+  padding-top: 60px;
+}
+span {
+  box-shadow: 2px 2px 2px orangered;
+  padding: 7px 15px;
+  border-radius: 25px;
+  font-size: 22px;
+}

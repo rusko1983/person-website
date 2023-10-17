@@ -1,9 +1,35 @@
-*{
-    margin  : 0;
-    padding: 0 ;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    display: flex;
+header {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-name {
+  font-size: 45px;
+  font-family: Pacifico;
+  border-bottom: 1px solid orangered;
+}
+.list-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 25%;
+}
+.list-nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Pacifico;
+  color: black;
+  transition: 0.2s ease-out;
+}
+.list-nav li a:hover {
+  border-bottom: 2px solid orangered;
 }
